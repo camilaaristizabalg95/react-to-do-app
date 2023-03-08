@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { toDoService } from '@services/imports.module'
+
 function App() {
+  console.log(toDoService.getToDoList());
   return (
     <div className="App">
       <header className="App-header">
