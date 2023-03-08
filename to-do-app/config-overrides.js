@@ -7,10 +7,10 @@ module.exports = function override(config) {
     '@components': 'src/components',
     '@hooks': 'src/hooks',
     '@interceptors': 'src/interceptors',
-    '@mocks': 'src/mocks',
     '@pages': 'src/pages',
     '@redux': 'src/redux',
     '@utils': 'src/utils',
+    '@http-clients': 'src/http-clients'
 
   })(config);
 
